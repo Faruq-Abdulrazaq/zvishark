@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>746</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="home">
+   <widget class="QFrame" name="main_frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>751</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>321</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 132, 191);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QFrame" name="select_frame_1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>261</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(21, 36, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="file_label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>241</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>File</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="selectVideo_btn">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>60</y>
+         <width>91</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 0);
+color: rgb(21, 36, 255);</string>
+       </property>
+       <property name="text">
+        <string>Select Video</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="selectVideoWit_label">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>80</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Please wiat</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="done_label_1">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>160</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Done. Faces has been saved</string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="select_frame_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>210</y>
+        <width>261</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(21, 36, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="encodeButton">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>81</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 0);
+color: rgb(21, 36, 255);</string>
+       </property>
+       <property name="text">
+        <string>Encode Faces</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="encodeLabel">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>231</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Encoding.. This might take a while</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="done_label_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>310</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Done. Faces has been encoded</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Videoanalizer_label">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>0</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Poor Richard</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Video Analizer</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>10</y>
+       <width>391</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 132, 191);</string>
+     </property>
+     <widget class="QFrame" name="frame_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>371</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(21, 36, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="recognizedFile_label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>351</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>File</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="runRecognize_Button">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>70</y>
+         <width>101</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 0);
+color: rgb(21, 36, 255);</string>
+       </property>
+       <property name="text">
+        <string>Run recognizer</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="recognizedWait_label">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>100</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Please wiat</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>371</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(21, 36, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="select_button">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>20</y>
+         <width>101</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 0);
+color: rgb(21, 36, 255);</string>
+       </property>
+       <property name="text">
+        <string>Select Image</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="faceRecognition_label">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>20</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Poor Richard</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Face Recognition</string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>300</y>
+        <width>371</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(21, 36, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="recognized_label_2">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Poor Richard</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Recognized</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="timestamp_label">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Timestamp(s):</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="timestamp_label_2">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>40</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>.</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
