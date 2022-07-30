@@ -51,7 +51,7 @@ def run(filename):
                     # Save frames
                     cv2.imwrite('known_faces/' +
                                 str(round(timeInS, 2)) + '.png', img)
-                    print("Save")
+                    
 
             if cv2.waitKey(0) & 0xFF == 1:
                 break
